@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class RotateArrayByD {
 
     static void printArray(int arr[]) {
@@ -54,5 +56,8 @@ public class RotateArrayByD {
         int arr[] = { 1, 2, 3, 4, 5,6,7 };
         rotateByD(arr, 2);
         printArray(arr);
+        ArrayList <Integer> list=new ArrayList<>();
+        list.add(5);
+        list.get(0)
     }
 }
