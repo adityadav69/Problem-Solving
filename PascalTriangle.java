@@ -1,30 +1,28 @@
 public class PascalTriangle {
 
-    static int calculateFactorial(int n){
-        int fact=1;
-        for(int i=1;i<=n;i++){
-            fact=fact*i;
+    static void printParticularRow(int row){
+        for(int i=1;i<=row;i++){
+            System.out.print(printParticularElement(row, i)+" ");
         }
-        return fact;
     }
     
     static int printParticularElement(int row,int column){
       
         row=row-1;
         column=column-1;
-        int numerator=1;
-        int denominator=1;
+        int result=1;
         for(int i=0;i<column;i++){
           
-            numerator=numerator*(row-i);
-            denominator=denominator*(i+1);
+            result=result*(row-i);
+            result=result/(i+1);
             
         }
 
-        return numerator/denominator;
+        return result;
         
     }
     public static void main(String[] args) {
-        System.out.println(printParticularElement(6, 6));
+        System.out.println(printParticularElement(6, 4));
+        printParticularRow(14);
     }
 }
