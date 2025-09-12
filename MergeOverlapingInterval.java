@@ -53,10 +53,11 @@ public class MergeOverlapingInterval {
                 return Integer.compare(a[1], b[1]);
             }
         });
+        Arrays.sort(arr);
         System.out.println("After sorting");
         print(arr);
 
-        System.out.println(overlapping(arr));
+        // System.out.println(overlapping(arr));
 
     }
 }
