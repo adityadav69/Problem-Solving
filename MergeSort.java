@@ -11,6 +11,7 @@ public class MergeSort {
     static void merge(int arr[],int low,int mid,int high){
         int left=low;
         int right=mid+1;
+        // int arr2[]=new int[high-low+1];
         ArrayList<Integer>list=new ArrayList<>();
         while (left<=mid && right<=high) {
             if(arr[left]<=arr[right]){
@@ -30,7 +31,6 @@ public class MergeSort {
             list.add(arr[right]);
             right++;
         }
-
         for(int i=low;i<=high;i++){
             arr[i]=list.get(i-low);
         }
