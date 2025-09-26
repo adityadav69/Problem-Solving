@@ -1,13 +1,14 @@
 public class PrintNumberInIncreasingOrder {
-    static void printNumber(int n){
-        if(n==1){
-            System.out.print(1);
+
+    static void printNumber(int i,int n){
+        if(i==n){
+            System.out.print(i);
             return;
         }
-        System.out.print(n+" , ");
-        printNumber(n-1);
+        System.out.print(i+" , ");
+        printNumber(i+1, n);
     }
     public static void main(String[] args) {
-        printNumber(10);
+        printNumber(0, 10);
     }
 }
