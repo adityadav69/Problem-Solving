@@ -1,8 +1,8 @@
 public class PowerXtoN {
 
     static int cp(int n,int i){
-        if(i==1){
-            return n;
+        if(i==0){
+            return 1;
         }
         return n*cp(n, i-1);
     }
