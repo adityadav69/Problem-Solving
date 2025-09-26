@@ -6,7 +6,7 @@ public class CheckIfArrayIsSorted {
             return true;
         }
         
-        if(arr[i]<arr[i+1]){
+        if(arr[i]<=arr[i+1]){
             return chekSorted(i+1, arr);
         }
         else{
@@ -14,7 +14,7 @@ public class CheckIfArrayIsSorted {
         }
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,3};
+        int arr[]={1,2,3,3,4};
         System.out.println(chekSorted(0, arr));
     }
 }
