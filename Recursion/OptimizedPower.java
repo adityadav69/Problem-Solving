@@ -15,5 +15,6 @@ public class OptimizedPower {
 
     public static void main(String[] args) {
         System.out.println(cp(2, 5));
+        System.out.println(cp(2, 5));
     }
 }
