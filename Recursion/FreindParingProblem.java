@@ -10,8 +10,7 @@ public class FreindParingProblem {
         return single+pairWays;
     }
     public static void main(String[]  args) {
-        System.out.println(countPair(3));
-        System.out.println(countPair(3));
+        System.out.println(countPair(4));
 
     }
 }
