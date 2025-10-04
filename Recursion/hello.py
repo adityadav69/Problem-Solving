@@ -16,3 +16,4 @@ for i in range(size):
 
 print(a)
 print("".join(t))
+print(a)
