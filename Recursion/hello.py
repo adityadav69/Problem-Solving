@@ -15,6 +15,4 @@ for i in range(size):
         t.append(a[i])
 
 print(a)
-print("".join(t))
-print("".join(t))
 
