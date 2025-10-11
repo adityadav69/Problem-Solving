@@ -7,11 +7,7 @@ public class fibnossiSeries {
         return fib(n-1)+fib(n-2);
     }
     public static void main(String[] args) {
-        System.out.println(fib(6));
         System.out.println(fib(8));
-
-
-
 
     }
 }
