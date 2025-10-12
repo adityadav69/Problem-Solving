@@ -8,6 +8,8 @@ public class fibnossiSeries {
     }
     public static void main(String[] args) {
         System.out.println(fib(8));
+        System.out.println(fib(8));
 
     }
 }
+
