@@ -15,7 +15,7 @@ public class second {
     }
     public static void main(String[] args) {
         String s[]={"zero","one","two","three","four","five","six","seven","eight","nine"};
-        print(new StringBuilder(), s, 1947); 
+        print(new StringBuilder(), s, 45641); 
 
         
     }
