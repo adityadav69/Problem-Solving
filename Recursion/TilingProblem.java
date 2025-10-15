@@ -12,5 +12,8 @@ public class TilingProblem {
     }
     public static void main(String[] args) {
         System.out.println(calculate(6));
+        System.out.println(calculate(6));
+        System.out.println(calculate(6));
+        
     }
 }
