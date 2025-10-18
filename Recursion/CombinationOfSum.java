@@ -25,6 +25,8 @@ private static void backtrack(int index, int[] candidates, int target, List<Inte
     }
     public static void main(String[] args) {
         int arr[]={2,3,6,7};
-        System.out.println(combinationSum(arr, 7));
+        System.out.println(combinationSum(arr, 9));
+        System.out.println(combinationSum(arr, 9));
+
     }
 }
